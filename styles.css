@@ -27,6 +27,7 @@ border-radius: 15px;
     }
       .play img:hover {
 opacity: 0.5;
+	      cursor: pointer;
     }
   .typingtitle h1 {
   overflow: hidden;

@@ -8,12 +8,13 @@ h1 {
 }
 .container {
   position: absolute;
-  width: 400px; 
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto; 
+    min-height: 100vh;
+    min-width: auto;
+    max-width: min-content;
+    grid-template-columns: 0 min-content 0;
+    grid-template-rows: 0 0 min-content min-content 0;
+    align-content: center;
+    margin: auto
   padding: 20px; 
   background-color: #f2f2f2;
 }

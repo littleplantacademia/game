@@ -7,10 +7,12 @@ h1 {
   font-family: Arial, sans-serif;
 }
 .container {
+	  position: fixed;
+	  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 	width: 500px;
   height: 500px;
-    grid-template-columns: 0 min-content 0;
-    grid-template-rows: 0 0 min-content min-content 0;
     align-content: center;
   left: 0;
   right: 0;

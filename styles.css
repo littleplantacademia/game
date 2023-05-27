@@ -7,7 +7,6 @@ h1 {
   font-family: Arial, sans-serif;
 }
 .container {
-  position: absolute;
     min-height: 100vh;
     min-width: auto;
     max-width: min-content;

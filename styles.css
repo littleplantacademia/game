@@ -15,17 +15,17 @@ border-radius: 15px;
   padding: 20px; 
  background: linear-gradient(to bottom, #f9f1f1, #9ccbb8);  
   }
-  #play { 
+  .play { 
     left: 0;
     right: 0;
     margin: auto;
     text-align: center;
     margin-top: 40%;
   }
-    #play img {
+    .play img {
   width: 100px !important;
     }
-      #play img:hover {
+      .play img:hover {
 opacity: 0.5;
     }
   .typingtitle h1 {

@@ -13,17 +13,7 @@ border-radius: 15px;
     align-content: center;
     margin: auto;
   padding: 20px; 
- background: linear-gradient(to bottom, #f9f1f1, #9ccbb8);
-}
-  #bunny { 
-   background-color: white;
-    left: 0;
-    right: 0;
-    margin: auto;
-    font: 30pt reenie beanie;
-    text-align: center;
-    margin-top: 20%;
-    
+ background: linear-gradient(to bottom, #f9f1f1, #9ccbb8);  
   }
   .typingtitle h1 {
   overflow: hidden;
@@ -32,15 +22,13 @@ border-radius: 15px;
   margin: 0 auto; /* Center the text */
   animation: typing 4s steps(40) forwards, blink-caret .75s step-end infinite;
     font: 30pt reenie beanie;
-    color: #025043;
+    color: #202020;
     margin-top: 30%;
 }
-
 @keyframes typing {
   from { width: 0; }
   to { width: 58%; }
 }
-
 @keyframes blink-caret {
   from, to { border-color: transparent; }
-  50% { border-color: #025043; }
+  50% { border-color: #202020; }

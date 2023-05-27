@@ -6,7 +6,7 @@ h1 {
    font: 8pt verdana;
   font-family: Arial, sans-serif;
 }
-#container {
+.container {
   width: 500px; 
   left: 0;
   right: 0;

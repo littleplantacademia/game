@@ -15,6 +15,19 @@ border-radius: 15px;
   padding: 20px; 
  background: linear-gradient(to bottom, #f9f1f1, #9ccbb8);  
   }
+  #play { 
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    margin-top: 40%;
+  }
+    #play img {
+  width: 100px !important;
+    }
+      #play img:hover {
+opacity: 0.5;
+    }
   .typingtitle h1 {
   overflow: hidden;
   border-right: .15em solid #000; /* Cursor appearance */
@@ -32,16 +45,3 @@ border-radius: 15px;
 @keyframes blink-caret {
   from, to { border-color: transparent; }
   50% { border-color: #202020; }
-	  #play { 
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-    margin-top: 40%;
-  }
-    #play img {
-  width: 100px !important;
-    }
-      #play img:hover {
-opacity: 0.5;
-    }

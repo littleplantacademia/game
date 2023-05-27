@@ -1,27 +1,46 @@
-body { 
-  font: 8pt verdana;
-  font-family: Arial, sans-serif;
-}
-h1 { 
-   font: 8pt verdana;
-  font-family: Arial, sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+  body { 
+  font: 12pt courier new;
 }
 .container {
-	  position: fixed;
-	  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 	width: 500px;
   height: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+border-radius: 15px;
     align-content: center;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  border-radius: 15%;
     margin: auto;
   padding: 20px; 
-  background-color: #f2f2f2;
+ background: linear-gradient(to bottom, #f9f1f1, #9ccbb8);
+}
+  #bunny { 
+   background-color: white;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font: 30pt reenie beanie;
+    text-align: center;
+    margin-top: 20%;
+    
+  }
+  .typingtitle h1 {
+  overflow: hidden;
+  border-right: .15em solid #000; /* Cursor appearance */
+  white-space: nowrap; 
+  margin: 0 auto; /* Center the text */
+  animation: typing 4s steps(40) forwards, blink-caret .75s step-end infinite;
+    font: 30pt reenie beanie;
+    color: #025043;
+    margin-top: 30%;
 }
 
+@keyframes typing {
+  from { width: 0; }
+  to { width: 58%; }
+}
 
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #025043; }

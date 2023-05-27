@@ -7,9 +7,12 @@ h1 {
   font-family: Arial, sans-serif;
 }
 .container {
-  width: 500px; 
+  position: absolute;
+  width: 400px; 
   left: 0;
   right: 0;
+  top: 0;
+  bottom: 0;
   margin: auto; 
   padding: 20px; 
   background-color: #f2f2f2;

@@ -7,12 +7,16 @@ h1 {
   font-family: Arial, sans-serif;
 }
 .container {
-    min-height: 100vh;
-    min-width: auto;
-    max-width: min-content;
+	width: 500px;
+  height: 500px;
     grid-template-columns: 0 min-content 0;
     grid-template-rows: 0 0 min-content min-content 0;
     align-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 15%;
     margin: auto;
   padding: 20px; 
   background-color: #f2f2f2;

@@ -46,14 +46,13 @@ nav ul li a {
 }
 .box {
   display: none; /* Hide all boxes by default */
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   border-radius: 15px;
-  background-color: #ccc;
-  margin-bottom: 20px;
+  linear-gradient(to bottom, #f9f1f1, #9ccbb8);
   text-align: center;
   line-height: 200px;
-  font: 24px courier new;
+  font: 18px courier new;
   position: absolute;
   left: 0;
   right: 0;

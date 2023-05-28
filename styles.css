@@ -29,29 +29,6 @@ border-radius: 15px;
 opacity: 0.5;
 	      cursor: pointer;
     }
-  .typingtitle h1 {
-  overflow: hidden;
-  border-right: .15em solid #000; /* Cursor appearance */
-  white-space: nowrap; 
-  margin: 0 auto; /* Center the text */
-  animation: typing 4s steps(40) forwards, blink-caret .75s step-end infinite;
-    font: 30pt reenie beanie;
-    color: #202020;
-    margin-top: 30%;
-}
-@keyframes typing {
-  from { width: 0; }
-  to { width: 58%; }
-}
-@keyframes blink-caret {
-  from, to { border-color: transparent; }
-  50% { border-color: #202020; }
-	nav {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-	} 
-}
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -85,3 +62,25 @@ nav ul li a {
   margin: auto;
   padding: 20px;
 }
+  .typingtitle h1 {
+  overflow: hidden;
+  border-right: .15em solid #000; /* Cursor appearance */
+  white-space: nowrap; 
+  margin: 0 auto; /* Center the text */
+  animation: typing 4s steps(40) forwards, blink-caret .75s step-end infinite;
+    font: 30pt reenie beanie;
+    color: #202020;
+    margin-top: 30%;
+}
+@keyframes typing {
+  from { width: 0; }
+  to { width: 58%; }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #202020; }
+	nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+	} 

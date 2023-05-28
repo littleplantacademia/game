@@ -50,7 +50,7 @@ nav ul li a {
   width: 500px;
   height: 500px;
   border-radius: 15px;
-  linear-gradient(to bottom, #f9f1f1, #9ccbb8);
+ background: linear-gradient(to bottom, #f9f1f1, #9ccbb8);
   text-align: center;
   line-height: 200px;
   font: 18px courier new;

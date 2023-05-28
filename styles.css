@@ -46,3 +46,41 @@ opacity: 0.5;
 @keyframes blink-caret {
   from, to { border-color: transparent; }
   50% { border-color: #202020; }
+	nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.box {
+  display: none; /* Hide all boxes by default */
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+  background-color: #ccc;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 200px;
+  font: 24px courier new;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 20px;
+}

@@ -57,8 +57,8 @@ opacity: 0.5;
 	max-width: 160px;
 	max-height: 100px;
   position: absolute;
-  top: 75%;
-  left: 4%;
+  top: 80%;
+  left: 1%;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
 	font: 12px courier new !important;
@@ -68,7 +68,7 @@ opacity: 0.5;
 	max-width: 160px;
 	max-height: 100px;
   position: absolute;
-  top: 75%;
+  top: 80%;
   left: 55%;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
@@ -87,16 +87,18 @@ opacity: 0.5;
   border: none;
   text-align: center;
   font-size: 16px;
+	display: inline-block;
 }
 .button2 {
-	width: 100px;
+	width: 20px;
   padding: 5px;
-	margin-left: 150px;
+	margin-left: 170px;
   background-color: #f9f1f1;
   color: #000;
   border: none;
   text-align: center;
   font-size: 16px;
+	display: inline-block;
 }
   .typingtitle h1 {
   overflow: hidden;

@@ -54,8 +54,8 @@ opacity: 0.5;
 }
 .textbox {
   display: none;
-	width: 200px;
-	height: 100px;
+	max-width: 100px;
+	max-height: 100px;
 	overflow: scroll;
   position: absolute;
   top: 80%;

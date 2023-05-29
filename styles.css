@@ -54,11 +54,11 @@ opacity: 0.5;
 }
 .textbox {
   display: none;
-	max-width: 125px;
+	max-width: 150px;
 	max-height: 100px;
   position: absolute;
   top: 65%;
-  left: 10%;
+  left: 7%;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
 	font: 9px courier new !important;

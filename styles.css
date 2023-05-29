@@ -54,7 +54,7 @@ opacity: 0.5;
 }
 .textbox {
   display: none;
-	max-width: 100px;
+	max-width: 125px;
 	max-height: 100px;
   position: absolute;
   top: 65%;
@@ -70,7 +70,7 @@ opacity: 0.5;
 .button {
 	width: 100px;
   padding: 5px;
-	left: 15%;
+	margin-left: 50px;
   background-color: #f9f1f1;
   color: #000;
   border: none;

@@ -67,10 +67,13 @@ opacity: 0.5;
 }
 .button {
   display: inline-block;
-	width: 100%;
+	width: 80%;
+	left: 0;
+	right: 0;
+	margin: auto;
   padding: 10px 50px;
-  background-color: #4CAF50;
-  color: white;
+  background-color: #f9f1f1;
+  color: #000;
   border: none;
   text-align: center;
   text-decoration: none;
@@ -79,7 +82,7 @@ opacity: 0.5;
   transition-duration: 0.4s;
 }
 .button:hover {
-  background-color: #45a049;
+  background-color: #fff;
 }
   .typingtitle h1 {
   overflow: hidden;

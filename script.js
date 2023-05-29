@@ -4,6 +4,13 @@
 function hideTextBox() {
   document.getElementById("textbox").style.display = "none";
 }
+        function showTextBox2() {
+    document.getElementById("textbox2").style.display = "block";
+  }
+
+  function hideTextBox2() {
+    document.getElementById("textbox2").style.display = "none";
+  }
 const subTitleText = "Greetings and welcome to Little Plant Academia! Please choose your character.";
 
 let typewriter = document.getElementById("typewriter");

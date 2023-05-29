@@ -5,4 +5,12 @@
       }
       document.getElementById(boxId).style.display = "block";
     }
-    showBox("box1"); // Show the initial box on page load
+    showBox("box1"); 
+function showTextBox() {
+  document.getElementById("textbox").style.display = "block";
+}
+
+function hideTextBox() {
+  document.getElementById("textbox").style.display = "none";
+}
+

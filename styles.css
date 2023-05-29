@@ -61,7 +61,7 @@ opacity: 0.5;
   left: 7%;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
-	font: 9px courier new !important;
+	font: 12px courier new !important;
 }
 #constanceav:hover, #lilibetav:hover {
   opacity: 0.5;
@@ -71,6 +71,7 @@ opacity: 0.5;
 	width: 100px;
   padding: 5px;
 	margin-left: 40px;
+	margin-top: -8px;
   background-color: #f9f1f1;
   color: #000;
   border: none;

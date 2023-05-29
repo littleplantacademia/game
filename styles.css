@@ -53,7 +53,7 @@ nav ul li a {
  background-color: #fff;
   text-align: center;
   line-height: 200px;
-  font: 18px courier new;
+  font: 16px courier new;
   position: absolute;
   left: 0;
   right: 0;
@@ -66,6 +66,14 @@ nav ul li a {
 #box1 img {
 	width: 200px;
 	height: auto;
+}
+.textbox {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
 }
   .typingtitle h1 {
   overflow: hidden;

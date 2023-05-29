@@ -54,9 +54,12 @@ opacity: 0.5;
 }
 .textbox {
   display: none;
+	width: 200px;
+	height: 100px;
+	overflow: scroll;
   position: absolute;
   top: 80%;
-  left: 12%;
+  left: 0;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
 	font: 11px courier new !important;

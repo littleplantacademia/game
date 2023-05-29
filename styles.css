@@ -50,7 +50,7 @@ nav ul li a {
   width: 400px;
   height: 400px;
   border-radius: 15px;
- background-color: #eaf6eb;
+ background-color: #fff;
   text-align: center;
   line-height: 200px;
   font: 18px courier new;
@@ -63,7 +63,7 @@ nav ul li a {
   padding: 20px;
 	z-index: 2;
 }
-.box1 img {
+#box1 img {
 	width: 200px;
 	height: auto;
 }

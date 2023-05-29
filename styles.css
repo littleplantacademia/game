@@ -56,7 +56,7 @@ opacity: 0.5;
   display: none;
   position: absolute;
   top: 80%;
-  left: 7%;
+  left: 12%;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
 	font: 11px courier new !important;
@@ -67,6 +67,8 @@ opacity: 0.5;
 }
 .button {
   display: inline;
+	display: grid;
+  grid-template-columns: 1fr 1fr;
 	width: 100%;
   padding: 0px 20px;
   background-color: #f9f1f1;
@@ -74,12 +76,6 @@ opacity: 0.5;
   border: none;
   text-align: center;
   font-size: 16px;
-}
-.button:first-child {
-  margin-right: 15px; 
-}
-.button:last-child {
-  margin-left: 15px; 
 }
   .typingtitle h1 {
   overflow: hidden;

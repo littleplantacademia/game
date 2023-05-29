@@ -63,6 +63,17 @@ opacity: 0.5;
   padding: 10px;
 	font: 12px courier new !important;
 }
+.textbox2 {
+  display: none;
+	max-width: 160px;
+	max-height: 100px;
+  position: absolute;
+  top: 75%;
+  left: 55%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+	font: 12px courier new !important;
+}
 #constanceav:hover, #lilibetav:hover {
   opacity: 0.5;
 	cursor: pointer;

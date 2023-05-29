@@ -67,10 +67,7 @@ opacity: 0.5;
 }
 .button {
   display: inline;
-	width: 80%;
-	left: 0;
-	right: 0;
-	margin: auto;
+	width: 100%;
   padding: 0px 20px;
   background-color: #f9f1f1;
   color: #000;

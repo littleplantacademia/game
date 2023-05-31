@@ -116,10 +116,6 @@ top: -18px;
     padding: 15px;
     background-color: #f9f1f1;
 }
-#next:hover {
-  opacity: 0.4;
-	cursor: pointer;
-}
   .typingtitle h1 {
   overflow: hidden;
   border-right: .15em solid #000;

@@ -1,4 +1,51 @@
-  function showTextBox() {
+// JavaScript code
+const images = document.querySelectorAll('.storage img');
+
+images.forEach((image, index) => {
+  const descriptionText = getItemDescription(index);
+
+  image.addEventListener('mouseover', () => {
+    showDescriptionTooltip(image, descriptionText);
+  });
+
+  image.addEventListener('mouseout', () => {
+    hideDescriptionTooltip();
+  });
+});
+
+function getItemDescription(index) {
+  const descriptions = [
+    "It's a shallow container. It's empty.",
+    "It's a wilted green onion.",
+    "It's a kitchen knife."
+  ];
+
+  return descriptions[index];
+}
+
+function showDescriptionTooltip(image, descriptionText) {
+  const tooltip = document.createElement('div');
+  tooltip.classList.add('tooltip');
+  tooltip.innerText = descriptionText;
+
+  const imageRect = image.getBoundingClientRect();
+  const imageCenterX = imageRect.left + imageRect.width / 2;
+  const imageCenterY = imageRect.top + imageRect.height / 2;
+
+  tooltip.style.left = `${imageCenterX}px`;
+  tooltip.style.top = `${imageCenterY}px`;
+
+  document.body.appendChild(tooltip);
+}
+
+function hideDescriptionTooltip() {
+  const tooltip = document.querySelector('.tooltip');
+  if (tooltip) {
+    tooltip.remove();
+  }
+}
+
+function showTextBox() {
   document.getElementById("textbox").style.display = "block";
 }
 function hideTextBox() {
@@ -7,7 +54,6 @@ function hideTextBox() {
         function showTextBox2() {
     document.getElementById("textbox2").style.display = "block";
   }
-
   function hideTextBox2() {
     document.getElementById("textbox2").style.display = "none";
   }

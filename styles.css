@@ -120,6 +120,25 @@ top: -18px;
   opacity: 0.5;
 	cursor: pointer;
 }
+    #pantry {
+    	position: relative;
+      width: 30px;
+      height: auto;
+          transform: translate(313%, -450%) rotate(0deg);
+      opacity: 0.8;
+    animation: wobble 1s ease-in-out infinite;
+  }
+
+  @keyframes wobble {
+    0% { transform: translate(313%, -450%) rotate(0deg); }
+    25% { transform: translate(313%, -450%) rotate(-5deg); }
+    75% { transform: translate(313%, -450%) rotate(5deg); }
+    100% { transform: translate(313%, -450%) rotate(0deg); }
+  }
+#pantry:hover { 
+  opacity: 0.5;
+  cursor: pointer;
+  }
   .typingtitle h1 {
   overflow: hidden;
   border-right: .15em solid #000;

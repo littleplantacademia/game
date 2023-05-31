@@ -106,6 +106,16 @@ top: -18px;
   font-size: 16px;
 	display: inline-block;
 }
+  .next { 
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    margin-top: 10%;
+    padding: 15px;
+    background-color: #f9f1f1;
+}
   .typingtitle h1 {
   overflow: hidden;
   border-right: .15em solid #000;

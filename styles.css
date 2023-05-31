@@ -76,7 +76,7 @@ opacity: 0.5;
 	font: 12px courier new !important;
     text-align: left !important;
 }
-#constanceav:hover, #lilibetav:hover, #next:hover {
+#constanceav:hover, #lilibetav:hover, #next img:hover {
   opacity: 0.5;
 	cursor: pointer;
 }

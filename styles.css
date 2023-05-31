@@ -76,7 +76,7 @@ opacity: 0.5;
 	font: 12px courier new !important;
     text-align: left !important;
 }
-#constanceav:hover, #lilibetav:hover {
+#constanceav:hover, #lilibetav:hover, #next:hover {
   opacity: 0.5;
 	cursor: pointer;
 }
@@ -106,7 +106,7 @@ top: -18px;
   font-size: 16px;
 	display: inline-block;
 }
-  .next { 
+  #next { 
     position: absolute;
     left: 0;
     right: 0;
